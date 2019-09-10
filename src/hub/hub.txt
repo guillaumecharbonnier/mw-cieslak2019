@@ -1,0 +1,6 @@
+hub MyFirstHub
+shortLabel MyFirstHub_label
+longLabel MyFirstHub_long_label
+genomesFile genomes.txt
+email guillaume.charbonnier@inserm.fr
+descriptionUrl descriptionUrl description.html
