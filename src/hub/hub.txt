@@ -1,6 +1,6 @@
-hub MyFirstHub
-shortLabel MyFirstHub_label
-longLabel MyFirstHub_long_label
+hub HumanTCellPrecursors
+shortLabel HumanTCellPrecursors
+longLabel Epigenomic dynamics of human T-cell precursors
 genomesFile genomes.txt
 email guillaume.charbonnier@inserm.fr
 descriptionUrl descriptionUrl description.html
