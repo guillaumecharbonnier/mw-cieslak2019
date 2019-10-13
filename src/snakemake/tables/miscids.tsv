@@ -1,2 +1,7 @@
 id	path
 merged-Blueprint-thymic-populations-with-input-as-control-hg19	../mw-cieslak2019/src/chromhmm/merged-Blueprint-thymic-populations-with-input-as-control-hg19.tsv
+cat-hg38-ensembl-r95-ealpha.bed	["out/sed/add_chr/gtftk/convert_-n_gene_id_-f_bed6/gtftk/select_by_key_key-feature_value-gene/gunzip/to-stdout/wget/ftp/ftp.ensembl.org/pub/release-95/gtf/homo_sapiens/Homo_sapiens.GRCh38.95.bed","../mw-cieslak2019/src/ealpha.bed"]
+bed-hg38-ensembl-r95-ealpha	"out/cat/cat-hg38-ensembl-r95-ealpha.bed"
+#Trying to debug deepTools multiBigwig issue with this one below:
+#bed-hg38-ensembl-r95-ealpha	"out/awk/extract_main_chr/cat/cat-hg38-ensembl-r95-ealpha.bed"
+bw-hg38-tall-h3k27ac-qnorm	expand("out/ln/alias/sst/all_samples/GRCh38/bw/quantile_normalized/{sample}_over_TH125_SP8_H3K27ac.bw", sample=TALL_H3K27ac_SAMPLES)
