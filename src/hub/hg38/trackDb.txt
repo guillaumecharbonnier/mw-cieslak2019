@@ -1,6 +1,7 @@
 track chromatinSegmentation
 compositeTrack on
 shortLabel Chromatin segmentation
+longLabel Chromatin segmentation
 type bigBed 9
 visibility dense
 itemRgb on
