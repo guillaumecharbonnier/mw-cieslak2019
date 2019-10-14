@@ -13,54 +13,53 @@ group regulation
 shortLabel My Folder
 longLabel My folder keeps my tracks together
 
-#	track chromatinSegmentation
-#	compositeTrack on
-#	parent myFolder
-#	shortLabel Chromatin segmentation
-#	longLabel Chromatin segmentation states
-#	type bigBed 9
-#	allButtonPair on
-#	visibility dense
-#	itemRgb on
-#	
-#		track CD34_11_segments_dense
-#		parent chromatinSegmentation on
-#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/CD34_11_segments_dense.bb
-#		shortLabel CD34
-#		longLabel CD34 long
-#		type bigBed 9
-#		visibility dense
-#		itemRgb on
-#		priority 2
-#		
-#		track EC_11_segments_dense
-#		parent chromatinSegmentation on
-#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/EC_11_segments_dense.bb
-#		shortLabel EC
-#		
-#		track LC_11_segments_dense
-#		parent chromatinSegmentation on
-#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/LC_11_segments_dense.bb
-#		shortLabel LC
-#		
-#		track SP4_11_segments_dense
-#		parent chromatinSegmentation on
-#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP4_11_segments_dense.bb
-#		shortLabel SP4
-#		
-#		track SP8_11_segments_dense
-#		parent chromatinSegmentation on
-#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP8_11_segments_dense.bb
-#		shortLabel SP8
-
-	track H3K27acSignal
-	#type bigWig 0 100
-	type bigWig
+	track chromatinSegmentation
 	compositeTrack on
 	parent myFolder
 	shortLabel Chromatin segmentation
 	longLabel Chromatin segmentation states
-	viewLimits 0:80
+	type bigBed 9
+	allButtonPair on
+	visibility dense
+	itemRgb on
+	
+		track CD34_11_segments_dense
+		parent chromatinSegmentation on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/CD34_11_segments_dense.bb
+		shortLabel CD34
+		longLabel CD34 long
+		type bigBed 9
+		
+		track EC_11_segments_dense
+		parent chromatinSegmentation on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/EC_11_segments_dense.bb
+		shortLabel EC
+		type bigBed 9
+		
+		track LC_11_segments_dense
+		parent chromatinSegmentation on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/LC_11_segments_dense.bb
+		shortLabel LC
+		type bigBed 9
+		
+		track SP4_11_segments_dense
+		parent chromatinSegmentation on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP4_11_segments_dense.bb
+		shortLabel SP4
+		type bigBed 9
+		
+		track SP8_11_segments_dense
+		parent chromatinSegmentation on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP8_11_segments_dense.bb
+		shortLabel SP8
+		type bigBed 9
+
+	track H3K27acSignal
+	type bigWig
+	compositeTrack on
+	parent myFolder
+	shortLabel H3K27ac signal
+	longLabel H3K27ac signal (quantile-normalized against SP8 RPKM)
 	allButtonPair on
 	visibility dense
 	
@@ -92,6 +91,207 @@ longLabel My folder keeps my tracks together
 		track SP8_11_segments_dense
 		parent H3K27acSignal on
 		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_SP8.bw
+		shortLabel SP8
+		type bigWig
+
+	track H3K4me3Signal
+	#type bigWig 0 100
+	type bigWig
+	compositeTrack on
+	parent myFolder
+	shortLabel H3K27ac signal
+	longLabel H3K27ac signal (quantile-normalized against SP8 RPKM)
+	allButtonPair on
+	visibility dense
+	
+		track CD34_H3K4me3
+		parent H3K4me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_CD34.bw
+		shortLabel CD34_H3K4me3
+		longLabel CD34_H3K4me3
+		type bigWig
+		
+		track EC_H3K4me3
+		parent H3K4me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_EC.bw
+		shortLabel EC
+		type bigWig
+		
+		track LC_11_segments_dense
+		parent H3K4me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_LC.bw
+		shortLabel LC
+		type bigWig
+		
+		track SP4_11_segments_dense
+		parent H3K4me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_SP4.bw
+		shortLabel SP4
+		type bigWig
+		
+		track SP8_11_segments_dense
+		parent H3K4me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_SP8.bw
+		shortLabel SP8
+		type bigWig
+
+	track H3K4me1Signal
+	type bigWig
+	compositeTrack on
+	parent myFolder
+	shortLabel H3K4me1 signal
+	longLabel H3K4me1 signal (quantile-normalized against SP8 RPKM)
+	allButtonPair on
+	visibility dense
+	
+		track CD34_H3K4me1
+		parent H3K4me1Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_CD34.bw
+		shortLabel CD34_H3K4me1
+		longLabel CD34_H3K4me1
+		type bigWig
+		
+		track EC_H3K4me1
+		parent H3K4me1Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_EC.bw
+		shortLabel EC
+		type bigWig
+		
+		track LC_11_segments_dense
+		parent H3K4me1Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_LC.bw
+		shortLabel LC
+		type bigWig
+		
+		track SP4_11_segments_dense
+		parent H3K4me1Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_SP4.bw
+		shortLabel SP4
+		type bigWig
+		
+		track SP8_11_segments_dense
+		parent H3K4me1Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_SP8.bw
+		shortLabel SP8
+		type bigWig
+
+	track H3K36me3Signal
+	type bigWig
+	compositeTrack on
+	parent myFolder
+	shortLabel H3K36me3 signal
+	longLabel H3K36me3 signal (quantile-normalized against SP8 RPKM)
+	allButtonPair on
+	visibility dense
+	
+		track CD34_H3K36me3
+		parent H3K36me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_CD34.bw
+		shortLabel CD34_H3K36me3
+		longLabel CD34_H3K36me3
+		type bigWig
+		
+		track EC_H3K36me3
+		parent H3K36me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_EC.bw
+		shortLabel EC
+		type bigWig
+		
+		track LC_11_segments_dense
+		parent H3K36me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_LC.bw
+		shortLabel LC
+		type bigWig
+		
+		track SP4_11_segments_dense
+		parent H3K36me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_SP4.bw
+		shortLabel SP4
+		type bigWig
+		
+		track SP8_11_segments_dense
+		parent H3K36me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_SP8.bw
+		shortLabel SP8
+		type bigWig
+
+	track H3K9me3Signal
+	type bigWig
+	compositeTrack on
+	parent myFolder
+	shortLabel H3K9me3 signal
+	longLabel H3K9me3 signal (quantile-normalized against SP8 RPKM)
+	allButtonPair on
+	visibility dense
+	
+		track CD34_H3K9me3
+		parent H3K9me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_CD34.bw
+		shortLabel CD34_H3K9me3
+		longLabel CD34_H3K9me3
+		type bigWig
+		
+		track EC_H3K9me3
+		parent H3K9me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_EC.bw
+		shortLabel EC
+		type bigWig
+		
+		track LC_11_segments_dense
+		parent H3K9me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_LC.bw
+		shortLabel LC
+		type bigWig
+		
+		track SP4_11_segments_dense
+		parent H3K9me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_SP4.bw
+		shortLabel SP4
+		type bigWig
+		
+		track SP8_11_segments_dense
+		parent H3K9me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_SP8.bw
+		shortLabel SP8
+		type bigWig
+
+	track H3K27me3Signal
+	type bigWig
+	compositeTrack on
+	parent myFolder
+	shortLabel H3K27me3 signal
+	longLabel H3K27me3 signal (quantile-normalized against SP8 RPKM)
+	allButtonPair on
+	visibility dense
+	
+		track CD34_H3K27me3
+		parent H3K27me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_CD34.bw
+		shortLabel CD34_H3K27me3
+		longLabel CD34_H3K27me3
+		type bigWig
+		
+		track EC_H3K27me3
+		parent H3K27me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_EC.bw
+		shortLabel EC
+		type bigWig
+		
+		track LC_11_segments_dense
+		parent H3K27me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_LC.bw
+		shortLabel LC
+		type bigWig
+		
+		track SP4_11_segments_dense
+		parent H3K27me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_SP4.bw
+		shortLabel SP4
+		type bigWig
+		
+		track SP8_11_segments_dense
+		parent H3K27me3Signal on
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_SP8.bw
 		shortLabel SP8
 		type bigWig
 
