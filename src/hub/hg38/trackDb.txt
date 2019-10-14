@@ -57,6 +57,7 @@
 	longLabel H3K27ac signal (quantile-normalized against SP8 RPKM)
 	allButtonPair on
 	visibility dense
+	color #E65050
 	
 		track H3K27ac_CD34
 		parent H3K27acSignal on
@@ -101,6 +102,7 @@
 	longLabel H3K4me3 signal (quantile-normalized against SP8 RPKM)
 	allButtonPair on
 	visibility dense
+	color #E6AA50
 	
 		track H3K4me3_CD34
 		parent H3K4me3Signal on
@@ -145,6 +147,7 @@
 	longLabel H3K4me1 signal (quantile-normalized against SP8 RPKM)
 	allButtonPair on
 	visibility dense
+	color #C8E650
 	
 		track H3K4me1_CD34
 		parent H3K4me1Signal on
@@ -189,6 +192,7 @@
 	longLabel H3K36me3 signal (quantile-normalized against SP8 RPKM)
 	allButtonPair on
 	visibility dense
+	color #50E68B
 	
 		track H3K36me3_CD34
 		parent H3K36me3Signal on
@@ -233,6 +237,7 @@
 	longLabel H3K9me3 signal (quantile-normalized against SP8 RPKM)
 	allButtonPair on
 	visibility dense
+	color #508DE6
 	
 		track H3K9me3_CD34
 		parent H3K9me3Signal on
@@ -277,7 +282,7 @@
 	longLabel H3K27me3 signal (quantile-normalized against SP8 RPKM)
 	allButtonPair on
 	visibility dense
-	color 255,0,0
+	color #C650E6
 	
 		track H3K27me3_CD34
 		parent H3K27me3Signal on
