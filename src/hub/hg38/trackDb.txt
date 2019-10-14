@@ -53,7 +53,7 @@ longLabel My folder keeps my tracks together
 #		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP8_11_segments_dense.bb
 #		shortLabel SP8
 
-	track H3K27ac signal
+	track H3K27ac_signal
 	compositeTrack on
 	parent myFolder
 	shortLabel Chromatin segmentation
