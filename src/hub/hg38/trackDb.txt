@@ -1,0 +1,175 @@
+track chromatinSegmentation
+compositeTrack on
+parent myFolder
+shortLabel Chromatin segmentation
+type bigBed 9
+visibility dense
+itemRgb on
+
+track CD34_11_segments_dense
+parent chromatinSegmentation
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/CD34_11_segments_dense.bb
+shortLabel CD34
+
+track EC_11_segments_dense
+parent chromatinSegmentation
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/EC_11_segments_dense.bb
+shortLabel EC
+
+track LC_11_segments_dense
+parent chromatinSegmentation
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/LC_11_segments_dense.bb
+shortLabel LC
+
+track CD34_11_segments_dense
+parent chromatinSegmentation
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP4_11_segments_dense.bb
+shortLabel SP4
+
+track CD34_11_segments_dense
+parent chromatinSegmentation
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP8_11_segments_dense.bb
+shortLabel SP8
+
+
+#track CD34_11_segments_dense
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/CD34_11_segments_dense.bb
+#shortLabel CD34 segmentation
+#longLabel CD34 chromatin states segmentation
+#type bigBed 9
+#visibility dense
+#itemRgb on
+#priority 1
+#
+#track EC_11_segments_dense
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/EC_11_segments_dense.bb
+#shortLabel EC segmentation
+#longLabel EC chromatin states segmentation
+#type bigBed 9
+#visibility dense
+#itemRgb on
+#priority 2
+#
+#track LC_11_segments_dense
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/LC_11_segments_dense.bb
+#shortLabel LC segmentation
+#longLabel LC chromatin states segmentation
+#type bigBed 9
+#visibility dense
+#itemRgb on
+#priority 3
+#
+#track SP4_11_segments_dense
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/SP4_11_segments_dense.bb
+#shortLabel SP4 segmentation
+#longLabel SP4 chromatin states segmentation
+#type bigBed 9
+#visibility dense
+#itemRgb on
+#priority 4
+#
+#track SP8_11_segments_dense
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/SP8_11_segments_dense.bb
+#shortLabel SP8 segmentation
+#longLabel SP8 chromatin states segmentation
+#type bigBed 9
+#visibility dense
+#itemRgb on
+#priority 5
+#
+#track TH134_CD34_H3K4me3_qnorVS_TH91_SP8_H3K4me3
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/TH134_CD34_H3K4me3_qnorVS_TH91_SP8_H3K4me3.bw
+#shortLabel H3K4me3 tCD34 TH134
+#longLabel ChIP-Seq H3K4me3 thymic CD34+ Donor 134
+#type bigWig
+#visibility dense
+#priority 6
+#
+#track TH89_EC_H3K4me3_qnorVS_TH91_SP8_H3K4me3
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/TH89_EC_H3K4me3_qnorVS_TH91_SP8_H3K4me3.bw
+#shortLabel H3K4me3 EC TH89
+#longLabel ChIP-Seq H3K4me3 Early-Cortical Donor 89
+#type bigWig
+#visibility dense
+#priority 7
+#
+#track TH91_EC_H3K4me3_qnorVS_TH91_SP8_H3K4me3
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/TH91_EC_H3K4me3_qnorVS_TH91_SP8_H3K4me3.bw
+#shortLabel H3K4me3 EC TH91
+#longLabel ChIP-Seq H3K4me3 Early-Cortical Donor 91
+#type bigWig
+#visibility dense
+#priority 8
+#
+#track TH91_LC_H3K4me3_qnorVS_TH91_SP8_H3K4me3
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/TH91_LC_H3K4me3_qnorVS_TH91_SP8_H3K4me3.bw
+#shortLabel H3K4me3 LC TH91
+#longLabel ChIP-Seq H3K4me3 Late-Cortical Donor 91
+#type bigWig
+#visibility dense
+#priority 9
+#
+#track TH101_LC_H3K4me3_qnorVS_TH91_SP8_H3K4me3
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/TH101_LC_H3K4me3_qnorVS_TH91_SP8_H3K4me3.bw
+#shortLabel TH101 LC H3K4me3
+#longLabel ChIP-Seq H3K4me3 Late-Cortical Donor 101
+#type bigWig
+#visibility dense
+#priority 10
+#
+#track TH118_LC_H3K4me3_qnorVS_TH91_SP8_H3K4me3
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/TH118_LC_H3K4me3_qnorVS_TH91_SP8_H3K4me3.bw
+#shortLabel H3K4me3 LC TH118
+#longLabel ChIP-Seq H3K4me3 Late-Cortical Donor 118
+#type bigWig
+#visibility dense
+#priority 11
+#
+#track TH91_SP4_H3K4me3_qnorVS_TH91_SP8_H3K4me3
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/TH91_SP4_H3K4me3_qnorVS_TH91_SP8_H3K4me3.bw
+#shortLabel H3K4me3 LC TH101
+#longLabel ChIP-Seq H3K4me3 Late-Cortical Donor 101
+#type bigWig
+#visibility dense
+#priority 12
+#
+#track TH91_SP8_H3K4me3_qnorVS_TH91_SP8_H3K4me3
+#bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/TH91_SP8_H3K4me3_qnorVS_TH91_SP8_H3K4me3.bw
+#shortLabel H3K4me3 LC TH91
+#longLabel ChIP-Seq H3K4me3 Late-Cortical Donor 101
+#type bigWig
+#visibility dense
+#priority 13
+#
+#
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_CD34.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_EC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_LC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_SP4.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_SP8.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_CD34.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_EC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_LC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_SP4.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27me3_SP8.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_CD34.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_EC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_LC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_SP4.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K36me3_SP8.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_CD34.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_EC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_LC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_SP4.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me1_SP8.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_CD34.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_EC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_LC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_SP4.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K4me3_SP8.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_CD34.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_EC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_LC.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_SP4.bw
+#https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K9me3_SP8.bw
+#
