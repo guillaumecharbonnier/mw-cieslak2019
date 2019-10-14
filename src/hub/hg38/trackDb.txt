@@ -12,6 +12,7 @@ compositeTrack on
 shortLabel Chromatin segmentation
 longLabel Chromatin segmentation states
 type bigBed 9
+allButtonPair on
 visibility dense
 itemRgb on
 
