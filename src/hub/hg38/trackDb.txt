@@ -54,41 +54,46 @@ longLabel My folder keeps my tracks together
 #		shortLabel SP8
 
 	track H3K27acSignal
+	#type bigWig 0 100
+	type bigWig
 	compositeTrack on
 	parent myFolder
 	shortLabel Chromatin segmentation
 	longLabel Chromatin segmentation states
-	type bigWig
-	visibility dense
+	viewLimits 0:80
 	allButtonPair on
 	visibility dense
-	itemRgb on
 	
 		track CD34_H3K27ac
 		parent H3K27acSignal on
 		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_CD34.bw
 		shortLabel CD34_H3K27ac
 		longLabel CD34_H3K27ac
+		type bigWig
 		
 		track EC_H3K27ac
 		parent H3K27acSignal on
 		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_EC.bw
 		shortLabel EC
+		type bigWig
 		
 		track LC_11_segments_dense
 		parent H3K27acSignal on
 		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_LC.bw
 		shortLabel LC
+		type bigWig
 		
 		track SP4_11_segments_dense
 		parent H3K27acSignal on
 		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_SP4.bw
 		shortLabel SP4
+		type bigWig
 		
 		track SP8_11_segments_dense
 		parent H3K27acSignal on
 		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_SP8.bw
 		shortLabel SP8
+		type bigWig
 
 #track EC_11_segments_dense
 #bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/EC_11_segments_dense.bb
