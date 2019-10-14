@@ -21,12 +21,12 @@ parent chromatinSegmentation
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/LC_11_segments_dense.bb
 shortLabel LC
 
-track CD34_11_segments_dense
+track SP4_11_segments_dense
 parent chromatinSegmentation
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP4_11_segments_dense.bb
 shortLabel SP4
 
-track CD34_11_segments_dense
+track SP8_11_segments_dense
 parent chromatinSegmentation
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP8_11_segments_dense.bb
 shortLabel SP8
