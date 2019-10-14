@@ -1,6 +1,5 @@
 track chromatinSegmentation
 compositeTrack on
-parent myFolder
 shortLabel Chromatin segmentation
 type bigBed 9
 visibility dense
