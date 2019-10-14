@@ -13,44 +13,81 @@ group regulation
 shortLabel My Folder
 longLabel My folder keeps my tracks together
 
-	track chromatinSegmentation
+#	track chromatinSegmentation
+#	compositeTrack on
+#	parent myFolder
+#	shortLabel Chromatin segmentation
+#	longLabel Chromatin segmentation states
+#	type bigBed 9
+#	allButtonPair on
+#	visibility dense
+#	itemRgb on
+#	
+#		track CD34_11_segments_dense
+#		parent chromatinSegmentation on
+#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/CD34_11_segments_dense.bb
+#		shortLabel CD34
+#		longLabel CD34 long
+#		type bigBed 9
+#		visibility dense
+#		itemRgb on
+#		priority 2
+#		
+#		track EC_11_segments_dense
+#		parent chromatinSegmentation on
+#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/EC_11_segments_dense.bb
+#		shortLabel EC
+#		
+#		track LC_11_segments_dense
+#		parent chromatinSegmentation on
+#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/LC_11_segments_dense.bb
+#		shortLabel LC
+#		
+#		track SP4_11_segments_dense
+#		parent chromatinSegmentation on
+#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP4_11_segments_dense.bb
+#		shortLabel SP4
+#		
+#		track SP8_11_segments_dense
+#		parent chromatinSegmentation on
+#		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP8_11_segments_dense.bb
+#		shortLabel SP8
+
+	track H3K27ac signal
 	compositeTrack on
 	parent myFolder
 	shortLabel Chromatin segmentation
 	longLabel Chromatin segmentation states
-	type bigBed 9
+	type bigWig
+	visibility dense
 	allButtonPair on
 	visibility dense
 	itemRgb on
 	
-		track CD34_11_segments_dense
+		track CD34_H3K27ac
 		parent chromatinSegmentation on
-		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/CD34_11_segments_dense.bb
-		shortLabel CD34
-		longLabel CD34 long
-		type bigBed 9
-		visibility dense
-		itemRgb on
-		priority 2
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_CD34.bw
+		shortLabel CD34_H3K27ac
+		longLabel CD34_H3K27ac
 		
-		track EC_11_segments_dense
+		track EC_H3K27ac
 		parent chromatinSegmentation on
-		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/EC_11_segments_dense.bb
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_EC.bw
 		shortLabel EC
 		
 		track LC_11_segments_dense
 		parent chromatinSegmentation on
-		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/LC_11_segments_dense.bb
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_LC.bw
 		shortLabel LC
 		
 		track SP4_11_segments_dense
 		parent chromatinSegmentation on
-		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP4_11_segments_dense.bb
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_SP4.bw
 		shortLabel SP4
 		
 		track SP8_11_segments_dense
 		parent chromatinSegmentation on
-		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP8_11_segments_dense.bb
+		bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/H3K27ac_SP8.bw
 		shortLabel SP8
 
 #track EC_11_segments_dense
