@@ -9,7 +9,6 @@ priority 1
 
 track chromatinSegmentation
 compositeTrack on
-parent myFolder
 shortLabel Chromatin segmentation
 longLabel Chromatin segmentation states
 type bigBed 9
