@@ -1,7 +1,16 @@
+track CD34_11_segments_dense_debug
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/CD34_11_segments_dense.bb
+shortLabel CD34 segmentation
+longLabel CD34 chromatin states segmentation
+type bigBed 9
+visibility dense
+itemRgb on
+priority 1
+
 track chromatinSegmentation
 compositeTrack on
 shortLabel Chromatin segmentation
-longLabel Chromatin segmentation
+longLabel Chromatin segmentation states
 type bigBed 9
 visibility dense
 itemRgb on
@@ -30,16 +39,6 @@ track SP8_11_segments_dense
 parent chromatinSegmentation
 bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/SP8_11_segments_dense.bb
 shortLabel SP8
-
-
-track CD34_11_segments_dense_debug
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/CD34_11_segments_dense.bb
-shortLabel CD34 segmentation
-longLabel CD34 chromatin states segmentation
-type bigBed 9
-visibility dense
-itemRgb on
-priority 1
 
 #track EC_11_segments_dense
 #bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/guillaumecharbonnier/thymus/hg19/EC_11_segments_dense.bb
