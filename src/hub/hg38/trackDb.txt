@@ -19,6 +19,7 @@ itemRgb on
 	parent chromatinSegmentation
 	bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/spicuglia/make_ucsc_hub_hg38/CD34_11_segments_dense.bb
 	shortLabel CD34
+	longLabel CD34 long
 	
 	track EC_11_segments_dense
 	parent chromatinSegmentation
