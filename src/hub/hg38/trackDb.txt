@@ -538,7 +538,7 @@ shortLabel Bisulfite-seq CpG methylation calls
 longLabel Bisulfite-seq CpG methylation calls
 allButtonPair on
 visibility dense
-color 160,0,204
+#color 160,0,204
 
 #
 #    track bpDNAMethERX1229955NECH0001_1BS-SeqCPG_methylation_callsCNAG
@@ -615,7 +615,7 @@ color 160,0,204
 	shortLabel CD34
 	longLabel CD34 CpG methylation calls
     #longLabel TH110 BS-Seq CPG_methylation_calls thymocyte signal from CNAG
-    color 251,143,32
+    #color 251,143,32
     #subGroups experiment=BS-Seq sample_description=thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH110 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=thymocyte view=signal
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000893 SAMPLE_ID=ERS985321 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229959 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001353 DONOR_ID=TH110 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=thymocyte 
     visibility pack
@@ -639,7 +639,7 @@ color 160,0,204
 	shortLabel EC
 	longLabel Early-Cortical CpG methylation calls
     #longLabel TH91 BS-Seq CPG_methylation_calls CD3-negative, CD4-positive, CD8-positive, double positive thymocyte signal from CNAG
-    color 251,143,32
+    #color 251,143,32
     #subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=signal
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985313 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229951 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000344 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
     visibility pack
@@ -663,7 +663,7 @@ color 160,0,204
 	shortLabel LC
 	longLabel Late-Cortical CpG methylation calls
     #longLabel TH91 BS-Seq CPG_methylation_calls CD3-positive, CD4-positive, CD8-positive, double positive thymocyte signal from CNAG
-    color 251,143,32
+    #color 251,143,32
     #subGroups experiment=BS-Seq sample_description=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte view=signal
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985314 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229952 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000281 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
     visibility pack
@@ -687,7 +687,7 @@ color 160,0,204
 	shortLabel SP4
 	longLabel SP4 CpG methylation calls
     #longLabel TH91 BS-Seq CPG_methylation_calls CD4-positive, alpha-beta thymocyte signal from CNAG
-    color 251,143,32
+    #color 251,143,32
     #subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD4-positive__alpha-beta_thymocyte view=signal
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985315 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229953 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000288 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
     visibility pack
@@ -711,7 +711,7 @@ color 160,0,204
 	shortLabel SP8
 	longLabel SP8 CpG methylation calls
     #longLabel TH91 BS-Seq CPG_methylation_calls CD8-positive, alpha-beta thymocyte signal from CNAG
-    color 251,143,32
+    #color 251,143,32
     #subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD8-positive__alpha-beta_thymocyte view=signal
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985316 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229954 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000264 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
     visibility pack
