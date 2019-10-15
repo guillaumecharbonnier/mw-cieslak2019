@@ -316,10 +316,11 @@ color 160,0,204
 track BSCall
 type bigWig 0 1
 compositeTrack on
-shortLabel Bisulfite-seq methylation call
-longLabel Bisulfite-seq methylation call
+shortLabel Bisulfite-seq CpG methylation calls
+longLabel Bisulfite-seq CpG methylation calls
 allButtonPair on
 visibility dense
+smoothingWindow 16
 #color 160,0,204
 
 #    track bpDNAMethERX1229955NECH0001_1BS-Seqhyper_methylationCNAG
@@ -685,18 +686,18 @@ visibility dense
 #    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS1028007 EXPERIMENT_TYPE=H3K4me3 EXPERIMENT_ID=ERX1302274 ALIGNMENT_SOFTWARE=BWA ALIGNMENT_SOFTWARE_VERSION=bwa-0.7.7 ANALYSIS_SOFTWARE=MACS2 ANALYSIS_SOFTWARE_VERSION=2.0.10.20131216 EPIRR_ID=IHECRE00001317 DONOR_ID=TH118 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
 #    visibility dense
 #
-
-    track bpDNAMethERX1229955NECH0001_1BS-SeqCPG_methylation_callsCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/NECH0001_1.CPG_methylation_calls.bs_call.GRCh38.20160531.bw
-    parent BSCall on
-    type bigWig 0 1
-    shortLabel TH101.BS.Meth.thymo_cd3-
-    longLabel TH101 BS-Seq CPG_methylation_calls CD3-negative, CD4-positive, CD8-positive, double positive thymocyte signal from CNAG
-    color 251,143,32
-    #subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=signal
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985317 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229955 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001346 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
-    visibility pack
-
+#
+#    track bpDNAMethERX1229955NECH0001_1BS-SeqCPG_methylation_callsCNAG
+#    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/NECH0001_1.CPG_methylation_calls.bs_call.GRCh38.20160531.bw
+#    parent BSCall on
+#    type bigWig 0 1
+#    shortLabel TH101.BS.Meth.thymo_cd3-
+#    longLabel TH101 BS-Seq CPG_methylation_calls CD3-negative, CD4-positive, CD8-positive, double positive thymocyte signal from CNAG
+#    color 251,143,32
+#    #subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=signal
+#    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985317 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229955 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001346 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
+#    visibility pack
+#
 #    track bpDNAMethERX1229955NECH0001_1BS-SeqCPG_methylation_covCNAG
 #    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/NECH0001_1.CPG_methylation_calls.bs_cov.GRCh38.20160531.bw
 #    parent signal off
@@ -707,18 +708,18 @@ visibility dense
 #    subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=CPG_methylation_cov sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=signal
 #    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985317 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229955 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001346 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
 #    visibility pack
-
-    track bpDNAMethERX1229957NECH0001_2BS-SeqCPG_methylation_callsCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_2.CPG_methylation_calls.bs_call.GRCh38.20160531.bw
-    parent BSCall on
-    type bigWig 0 1
-    shortLabel TH101.BS.Meth.thymo_cd4+
-    longLabel TH101 BS-Seq CPG_methylation_calls CD4-positive, alpha-beta thymocyte signal from CNAG
-    color 251,143,32
-    #subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD4-positive__alpha-beta_thymocyte view=signal
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985319 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229957 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001472 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
-    visibility pack
-
+#
+#    track bpDNAMethERX1229957NECH0001_2BS-SeqCPG_methylation_callsCNAG
+#    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_2.CPG_methylation_calls.bs_call.GRCh38.20160531.bw
+#    parent BSCall on
+#    type bigWig 0 1
+#    shortLabel TH101.BS.Meth.thymo_cd4+
+#    longLabel TH101 BS-Seq CPG_methylation_calls CD4-positive, alpha-beta thymocyte signal from CNAG
+#    color 251,143,32
+#    #subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD4-positive__alpha-beta_thymocyte view=signal
+#    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985319 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229957 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001472 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
+#    visibility pack
+#
 #    track bpDNAMethERX1229957NECH0001_2BS-SeqCPG_methylation_covCNAG
 #    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_2.CPG_methylation_calls.bs_cov.GRCh38.20160531.bw
 #    parent signal off
@@ -729,18 +730,18 @@ visibility dense
 #    subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=CPG_methylation_cov sample_description_3=CD4-positive__alpha-beta_thymocyte view=signal
 #    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985319 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229957 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001472 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
 #    visibility pack
-
-    track bpDNAMethERX1229958NECH0001_3BS-SeqCPG_methylation_callsCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_3.CPG_methylation_calls.bs_call.GRCh38.20160531.bw
-    parent BSCall on
-    type bigWig 0 1
-    shortLabel TH101.BS.Meth.thymo_cd8+
-    longLabel TH101 BS-Seq CPG_methylation_calls CD8-positive, alpha-beta thymocyte signal from CNAG
-    color 251,143,32
-    #subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD8-positive__alpha-beta_thymocyte view=signal
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985320 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229958 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001456 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
-    visibility pack
-
+#
+#    track bpDNAMethERX1229958NECH0001_3BS-SeqCPG_methylation_callsCNAG
+#    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_3.CPG_methylation_calls.bs_call.GRCh38.20160531.bw
+#    parent BSCall on
+#    type bigWig 0 1
+#    shortLabel TH101.BS.Meth.thymo_cd8+
+#    longLabel TH101 BS-Seq CPG_methylation_calls CD8-positive, alpha-beta thymocyte signal from CNAG
+#    color 251,143,32
+#    #subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=CPG_methylation_calls sample_description_3=CD8-positive__alpha-beta_thymocyte view=signal
+#    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985320 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229958 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001456 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
+#    visibility pack
+#
 #    track bpDNAMethERX1229958NECH0001_3BS-SeqCPG_methylation_covCNAG
 #    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_3.CPG_methylation_calls.bs_cov.GRCh38.20160531.bw
 #    parent signal off
