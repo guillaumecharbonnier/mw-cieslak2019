@@ -322,203 +322,213 @@ allButtonPair on
 visibility dense
 color 160,0,204
 
-    track bpDNAMethERX1229955NECH0001_1BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/NECH0001_1.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH101.BS.Hypo.thymo_cd3-
-    longLabel TH101 BS-Seq hyper_methylation CD3-negative, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985317 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229955 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001346 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229955NECH0001_1BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/NECH0001_1.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH101.BS.Hypo.thymo_cd3-
+    #longLabel TH101 BS-Seq hyper_methylation CD3-negative, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985317 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229955 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001346 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
+    #visibility dense
 
-    track bpDNAMethERX1229955NECH0001_1BS-Seqhypo_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/NECH0001_1.hypo_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH101.BS.Hyper.thymo_cd3-
-    longLabel TH101 BS-Seq hypo_methylation CD3-negative, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
-    color 252,180,100
-    #subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985317 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229955 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001346 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229955NECH0001_1BS-Seqhypo_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/NECH0001_1.hypo_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH101.BS.Hyper.thymo_cd3-
+    #longLabel TH101 BS-Seq hypo_methylation CD3-negative, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
+    #color 252,180,100
+    ##subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985317 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229955 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001346 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
+    #visibility dense
 
-    track bpDNAMethERX1229957NECH0001_2BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_2.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH101.BS.Hypo.thymo_cd4+
-    longLabel TH101 BS-Seq hyper_methylation CD4-positive, alpha-beta thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD4-positive__alpha-beta_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985319 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229957 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001472 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229957NECH0001_2BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_2.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH101.BS.Hypo.thymo_cd4+
+    #longLabel TH101 BS-Seq hyper_methylation CD4-positive, alpha-beta thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD4-positive__alpha-beta_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985319 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229957 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001472 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
+    #visibility dense
 
-    track bpDNAMethERX1229957NECH0001_2BS-Seqhypo_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_2.hypo_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH101.BS.Hyper.thymo_cd4+
-    longLabel TH101 BS-Seq hypo_methylation CD4-positive, alpha-beta thymocyte region from CNAG
-    color 252,180,100
-    #subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD4-positive__alpha-beta_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985319 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229957 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001472 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229957NECH0001_2BS-Seqhypo_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_2.hypo_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH101.BS.Hyper.thymo_cd4+
+    #longLabel TH101 BS-Seq hypo_methylation CD4-positive, alpha-beta thymocyte region from CNAG
+    #color 252,180,100
+    ##subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD4-positive__alpha-beta_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985319 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229957 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001472 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
+    #visibility dense
 
-    track bpDNAMethERX1229958NECH0001_3BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_3.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH101.BS.Hypo.thymo_cd8+
-    longLabel TH101 BS-Seq hyper_methylation CD8-positive, alpha-beta thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD8-positive__alpha-beta_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985320 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229958 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001456 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229958NECH0001_3BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_3.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH101.BS.Hypo.thymo_cd8+
+    #longLabel TH101 BS-Seq hyper_methylation CD8-positive, alpha-beta thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD8-positive__alpha-beta_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985320 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229958 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001456 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
+    #visibility dense
 
-    track bpDNAMethERX1229958NECH0001_3BS-Seqhypo_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_3.hypo_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH101.BS.Hyper.thymo_cd8+
-    longLabel TH101 BS-Seq hypo_methylation CD8-positive, alpha-beta thymocyte region from CNAG
-    color 252,180,100
-    #subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD8-positive__alpha-beta_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985320 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229958 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001456 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229958NECH0001_3BS-Seqhypo_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/NECH0001_3.hypo_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH101.BS.Hyper.thymo_cd8+
+    #longLabel TH101 BS-Seq hypo_methylation CD8-positive, alpha-beta thymocyte region from CNAG
+    #color 252,180,100
+    ##subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD8-positive__alpha-beta_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985320 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229958 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001456 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
+    #visibility dense
 
-    track bpDNAMethERX1229959NECH0002_1BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH110/thymocyte/Bisulfite-Seq/CNAG/NECH0002_1.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH110.BS.Hypo.thymo_cd3-
-    longLabel TH110 BS-Seq hyper_methylation thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH110 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000893 SAMPLE_ID=ERS985321 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229959 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001353 DONOR_ID=TH110 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229959NECH0002_1BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH110/thymocyte/Bisulfite-Seq/CNAG/NECH0002_1.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH110.BS.Hypo.thymo_cd3-
+    #longLabel TH110 BS-Seq hyper_methylation thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH110 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000893 SAMPLE_ID=ERS985321 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229959 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001353 DONOR_ID=TH110 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=thymocyte 
+    #visibility dense
 
     track bpDNAMethERX1229959NECH0002_1BS-Seqhypo_methylationCNAG
     bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH110/thymocyte/Bisulfite-Seq/CNAG/NECH0002_1.hypo_meth.bs_call.GRCh38.20160531.bb
     parent BSHypoHyperMethRegions on
     type bigBed 6 .
-    shortLabel TH110.BS.Hyper.thymo_cd3-
-    longLabel TH110 BS-Seq hypo_methylation thymocyte region from CNAG
+    #shortLabel TH110.BS.Hyper.thymo_cd3-
+	shortLabel CD34
+	longLabel CD34 BS-Seq hypomethylated regions
+    #longLabel TH110 BS-Seq hypo_methylation thymocyte region from CNAG
     color 252,180,100
     #subGroups experiment=BS-Seq sample_description=thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH110 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=thymocyte view=region
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000893 SAMPLE_ID=ERS985321 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229959 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001353 DONOR_ID=TH110 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=thymocyte 
     visibility dense
 
-    track bpDNAMethERX1229951S010NDA1BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S010NDA1.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH91.BS.Hypo.thymo_cd3-
-    longLabel TH91 BS-Seq hyper_methylation CD3-negative, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985313 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229951 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000344 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229951S010NDA1BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S010NDA1.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH91.BS.Hypo.thymo_cd3-
+    #longLabel TH91 BS-Seq hyper_methylation CD3-negative, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985313 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229951 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000344 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
+    #visibility dense
 
     track bpDNAMethERX1229951S010NDA1BS-Seqhypo_methylationCNAG
     bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD3-negative_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S010NDA1.hypo_meth.bs_call.GRCh38.20160531.bb
     parent BSHypoHyperMethRegions on
     type bigBed 6 .
-    shortLabel TH91.BS.Hyper.thymo_cd3-
-    longLabel TH91 BS-Seq hypo_methylation CD3-negative, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
+    #shortLabel TH91.BS.Hyper.thymo_cd3-
+	shortLabel EC
+	longLabel EC BS-Seq hypomethylated regions
+    #longLabel TH91 BS-Seq hypo_methylation CD3-negative, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
     color 252,180,100
     #subGroups experiment=BS-Seq sample_description=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD3-negative__CD4-positive__CD8-positive__double_positive_thymocyte view=region
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985313 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229951 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000344 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-negative,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
     visibility dense
 
-    track bpDNAMethERX1229952S010Q7A1BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD3-positive_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S010Q7A1.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH91.BS.Hypo.thymo_cd3+
-    longLabel TH91 BS-Seq hyper_methylation CD3-positive, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985314 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229952 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000281 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229952S010Q7A1BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD3-positive_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S010Q7A1.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH91.BS.Hypo.thymo_cd3+
+    #longLabel TH91 BS-Seq hyper_methylation CD3-positive, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985314 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229952 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000281 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
+    #visibility dense
 
     track bpDNAMethERX1229952S010Q7A1BS-Seqhypo_methylationCNAG
     bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD3-positive_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S010Q7A1.hypo_meth.bs_call.GRCh38.20160531.bb
     parent BSHypoHyperMethRegions on
     type bigBed 6 .
-    shortLabel TH91.BS.Hyper.thymo_cd3+
-    longLabel TH91 BS-Seq hypo_methylation CD3-positive, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
+    #shortLabel TH91.BS.Hyper.thymo_cd3+
+	shortLabel LC
+	longLabel LC BS-Seq hypomethylated regions
+    #longLabel TH91 BS-Seq hypo_methylation CD3-positive, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
     color 252,180,100
     #subGroups experiment=BS-Seq sample_description=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte view=region
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985314 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229952 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000281 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
     visibility dense
 
-    track bpDNAMethERX1229953S010R5A1BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/S010R5A1.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH91.BS.Hypo.thymo_cd4+
-    longLabel TH91 BS-Seq hyper_methylation CD4-positive, alpha-beta thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD4-positive__alpha-beta_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985315 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229953 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000288 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229953S010R5A1BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/S010R5A1.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH91.BS.Hypo.thymo_cd4+
+    #longLabel TH91 BS-Seq hyper_methylation CD4-positive, alpha-beta thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD4-positive__alpha-beta_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985315 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229953 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000288 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
+    #visibility dense
 
     track bpDNAMethERX1229953S010R5A1BS-Seqhypo_methylationCNAG
     bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD4-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/S010R5A1.hypo_meth.bs_call.GRCh38.20160531.bb
     parent BSHypoHyperMethRegions on
     type bigBed 6 .
-    shortLabel TH91.BS.Hyper.thymo_cd4+
-    longLabel TH91 BS-Seq hypo_methylation CD4-positive, alpha-beta thymocyte region from CNAG
+    #shortLabel TH91.BS.Hyper.thymo_cd4+
+	shortLabel SP4
+	longLabel SP4 BS-Seq hypomethylated regions
+    #longLabel TH91 BS-Seq hypo_methylation CD4-positive, alpha-beta thymocyte region from CNAG
     color 252,180,100
     #subGroups experiment=BS-Seq sample_description=CD4-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD4-positive__alpha-beta_thymocyte view=region
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000810 SAMPLE_ID=ERS985315 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229953 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000288 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD4-positive,_alpha-beta_thymocyte 
     visibility dense
 
-    track bpDNAMethERX1229954S010S3A1BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/S010S3A1.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH91.BS.Hypo.thymo_cd8+
-    longLabel TH91 BS-Seq hyper_methylation CD8-positive, alpha-beta thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD8-positive__alpha-beta_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985316 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229954 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000264 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229954S010S3A1BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/S010S3A1.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH91.BS.Hypo.thymo_cd8+
+    #longLabel TH91 BS-Seq hyper_methylation CD8-positive, alpha-beta thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD8-positive__alpha-beta_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985316 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229954 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000264 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
+    #visibility dense
 
     track bpDNAMethERX1229954S010S3A1BS-Seqhypo_methylationCNAG
     bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH91/CD8-positive_alpha-beta_thymocyte/Bisulfite-Seq/CNAG/S010S3A1.hypo_meth.bs_call.GRCh38.20160531.bb
     parent BSHypoHyperMethRegions on
     type bigBed 6 .
-    shortLabel TH91.BS.Hyper.thymo_cd8+
-    longLabel TH91 BS-Seq hypo_methylation CD8-positive, alpha-beta thymocyte region from CNAG
+    #shortLabel TH91.BS.Hyper.thymo_cd8+
+	shortLabel SP8
+	longLabel SP8 BS-Seq hypomethylated regions
+    #longLabel TH91 BS-Seq hypo_methylation CD8-positive, alpha-beta thymocyte region from CNAG
     color 252,180,100
     #subGroups experiment=BS-Seq sample_description=CD8-positive__alpha-beta_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH91 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD8-positive__alpha-beta_thymocyte view=region
     metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000811 SAMPLE_ID=ERS985316 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229954 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00000264 DONOR_ID=TH91 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD8-positive,_alpha-beta_thymocyte 
     visibility dense
 
-    track bpDNAMethERX1229956S01G2SA1BS-Seqhyper_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-positive_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S01G2SA1.hyper_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH101.BS.Hypo.thymo_cd3+
-    longLabel TH101 BS-Seq hyper_methylation CD3-positive, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
-    color 250,108,0
-    #subGroups experiment=BS-Seq sample_description=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985318 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229956 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001412 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229956S01G2SA1BS-Seqhyper_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-positive_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S01G2SA1.hyper_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH101.BS.Hypo.thymo_cd3+
+    #longLabel TH101 BS-Seq hyper_methylation CD3-positive, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
+    #color 250,108,0
+    ##subGroups experiment=BS-Seq sample_description=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hyper_methylation sample_description_3=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985318 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229956 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001412 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
+    #visibility dense
 
-    track bpDNAMethERX1229956S01G2SA1BS-Seqhypo_methylationCNAG
-    bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-positive_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S01G2SA1.hypo_meth.bs_call.GRCh38.20160531.bb
-    parent BSHypoHyperMethRegions on
-    type bigBed 6 .
-    shortLabel TH101.BS.Hyper.thymo_cd3+
-    longLabel TH101 BS-Seq hypo_methylation CD3-positive, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
-    color 252,180,100
-    #subGroups experiment=BS-Seq sample_description=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte view=region
-    metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985318 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229956 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001412 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
-    visibility dense
+    #track bpDNAMethERX1229956S01G2SA1BS-Seqhypo_methylationCNAG
+    #bigDataUrl http://ftp.ebi.ac.uk/pub/databases/blueprint/data/homo_sapiens/GRCh38/thymus_lymphoid_tissue/TH101/CD3-positive_CD4-positive_CD8-positive_double_positive_thymocyte/Bisulfite-Seq/CNAG/S01G2SA1.hypo_meth.bs_call.GRCh38.20160531.bb
+    #parent BSHypoHyperMethRegions on
+    #type bigBed 6 .
+    #shortLabel TH101.BS.Hyper.thymo_cd3+
+    #longLabel TH101 BS-Seq hypo_methylation CD3-positive, CD4-positive, CD8-positive, double positive thymocyte region from CNAG
+    #color 252,180,100
+    ##subGroups experiment=BS-Seq sample_description=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte sample_source=thymus_lymphoid_tissue sample_barcode=TH101 analysis_group=CNAG analysis_type=hypo_methylation sample_description_3=CD3-positive__CD4-positive__CD8-positive__double_positive_thymocyte view=region
+    #metadata MOLECULE=genomic_DNA BIOMATERIAL_TYPE=Primary_Cell SAMPLE_ONTOLOGY_URI=http://purl.obolibrary.org/obo/CL_0000809 SAMPLE_ID=ERS985318 EXPERIMENT_TYPE=DNA_Methylation EXPERIMENT_ID=ERX1229956 ALIGNMENT_SOFTWARE=GEM ALIGNMENT_SOFTWARE_VERSION=v3 ANALYSIS_SOFTWARE=BS_CALL ANALYSIS_SOFTWARE_VERSION=v2 EPIRR_ID=IHECRE00001412 DONOR_ID=TH101 DONOR_AGE=0_-_5 DONOR_HEALTH_STATUS=Healthy DONOR_SEX=Male CELL_TYPE=CD3-positive,_CD4-positive,_CD8-positive,_double_positive_thymocyte 
+    #visibility dense
 
 
 track BSCall
