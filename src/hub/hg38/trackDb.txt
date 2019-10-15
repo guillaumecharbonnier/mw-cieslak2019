@@ -538,7 +538,7 @@ shortLabel Bisulfite-seq CpG methylation calls
 longLabel Bisulfite-seq CpG methylation calls
 allButtonPair on
 visibility dense
-#color 160,0,204
+color 160,0,204
 
 #
 #    track bpDNAMethERX1229955NECH0001_1BS-SeqCPG_methylation_callsCNAG
