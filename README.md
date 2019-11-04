@@ -1,5 +1,5 @@
 # mw-cieslak2019
-MetaWorkflow module to reproduce the bioinformatics analyses that are going to be published in "Epigenomic dynamics of human T-cell precursors reveal TCRA enhancer silencing by HOXA". Processed data used in the article are freely accessible [here](http://genome-euro.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://raw.githubusercontent.com/guillaumecharbonnier/mw-cieslak2019/master/src/hub/hub.txt&genome=hg38).
+MetaWorkflow module to reproduce the bioinformatics analyses that are going to be published in "Epigenomic dynamics of human T-cell precursors reveal TCRA enhancer silencing by HOXA". Processed data used in the article are freely accessible in this [UCSC hub](http://genome-euro.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://raw.githubusercontent.com/guillaumecharbonnier/mw-cieslak2019/master/src/hub/hub.txt&genome=hg38). Metaworkflow rationale and documentation can be found in the [mw-lib repository](https://github.com/guillaumecharbonnier/mw-lib)
 
 ## Requirements:
 - conda
